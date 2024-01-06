@@ -1,0 +1,56 @@
+@import url('../styles/globals.css');
+
+*{
+}
+#imageHolder img{
+max-width: 45%;
+
+height: auto;
+}
+#projectTitle   {
+    font-size: var(--headerFontSize);
+    align-self: center;
+    font-family: "ivyepic-variable", sans-serif; 
+    color: black;
+    text-decoration: none;
+}
+#projectTitle a {
+    color: black;
+    text-decoration: none;
+}
+#projectText{
+   font-family: "ivyepic-variable", sans-serif;
+}
+#projectHolder {
+    font-family: 2rem;
+}
+#imageHolder  { 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    flex-wrap: wrap;
+            }
+  
+body  {
+    padding: 2em; 
+                }
+
+
+section {
+    padding-top: var(--paddingSection);
+}
+
+
+#logoSection{
+    flex-direction: column;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: var(--bodyFont);
+}
+
+#mbglogo{
+    align-self: center;
+    padding: var(--paddingElement);
+    width: 30em;
+}

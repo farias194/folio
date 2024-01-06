@@ -1,0 +1,12 @@
+:root{
+    font-size: 16px;
+
+--paddingElement: 2rem;
+--paddingSection: calc(var(--paddingElement) * 2);
+--headerFontSize : 6rem;
+--bodyFont: calc(var(--headerFontSize) / 2)
+--headerTypeFace: "hwt-roman-extended-light-fac", serif;
+--bodyTypeFace:  "ivyepic-variable", sans-serif;
+
+
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 145.646 78.3974">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.048em;
+      }
+
+      .cls-2 {
+        letter-spacing: -.048em;
+      }
+
+      .cls-3 {
+        letter-spacing: -.018em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.038em;
+      }
+
+      .cls-5 {
+        font-family: Comfortaa-Bold, Comfortaa;
+        font-size: 22px;
+        font-variation-settings: 'wght' 700;
+        font-weight: 700;
+      }
+
+      .cls-5, .cls-6 {
+        fill: #0c6fb5;
+      }
+
+      .cls-6 {
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g>
+        <path class="cls-6" d="m52.1415,32.3933c7.2367.9128,15.8847-9.7284,15.8847-9.7284,0,0-9.8192,11.8376-15.7004,6.2831-5.5585-5.2497,8.1865-17.7151,5.4059-14.4115-.0278.033-.0554.0662-.0827.0993-1.8945,2.3015-4.2847,9.9506-2.2635,11.3888,1.2127.8629,2.7533.8194,3.8924.7996,4.8791-.0848,12.9593-8.6077,12.9593-8.6077-5.3518,8.0176-14.6299,21.1873-24.4324,17.632-5.2655-1.9098-5.8635-6.441-4.817-10.3685C47.1282,9.9404,66.2564,0,66.2564,0c0,0-6.8134,5.0059-11.687,10.8841-7.4063,8.9329-12.7972,20.2012-2.4279,21.5092Z"/>
+        <polygon class="cls-6" points="65.8615 14.4117 69.0994 16.3659 65.7071 18.0379 63.7529 21.2758 62.081 17.8835 58.8431 15.9293 62.2353 14.2574 64.1895 11.0195 65.8615 14.4117"/>
+      </g>
+      <text class="cls-5" transform="translate(-.0003 63.8123)"><tspan class="cls-3" x="0" y="0">g</tspan><tspan class="cls-2" x="14.4531" y="0">l</tspan><tspan class="cls-3" x="19.9971" y="0">axic</tspan><tspan class="cls-1" x="65.3818" y="0">l</tspan><tspan class="cls-4" x="70.9248" y="0">e</tspan><tspan class="cls-3" x="83.752" y="0">an</tspan></text>
+    </g>
+  </g>
+</svg>

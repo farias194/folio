@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 102.9342 163.4163">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        font-family: Comfortaa-Regular, Comfortaa;
+        font-size: 12px;
+        font-variation-settings: 'wght' 400;
+      }
+
+      .cls-1, .cls-6 {
+        fill: #b6e1e2;
+      }
+
+      .cls-2, .cls-7 {
+        fill: #0c6fb5;
+      }
+
+      .cls-3, .cls-8 {
+        fill: #e1e3e4;
+      }
+
+      .cls-4, .cls-9 {
+        fill: #314193;
+      }
+
+      .cls-5, .cls-10 {
+        fill: #53459c;
+      }
+
+      .cls-11 {
+        letter-spacing: 0em;
+      }
+
+      .cls-12 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-13 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-10, .cls-9, .cls-7, .cls-8, .cls-6 {
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <rect class="cls-6" width="28.8812" height="28.8812"/>
+      <text class="cls-1" transform="translate(40.3669 15.7334)"><tspan x="0" y="0">#B6E1E2</tspan></text>
+    </g>
+    <g>
+      <rect class="cls-10" y="33.6338" width="28.8812" height="28.8812"/>
+      <text class="cls-5" transform="translate(40.3669 49.3677)"><tspan x="0" y="0">#53</tspan><tspan class="cls-12" x="23.2314" y="0">4</tspan><tspan x="30.3955" y="0">5</tspan><tspan class="cls-13" x="37.9199" y="0">9</tspan><tspan class="cls-11" x="44.2676" y="0">C</tspan></text>
+    </g>
+    <g>
+      <rect class="cls-7" y="67.2675" width="28.8812" height="28.8812"/>
+      <text class="cls-2" transform="translate(40.3669 83.0009)"><tspan x="0" y="0">#0C6FB5</tspan></text>
+    </g>
+    <g>
+      <rect class="cls-8" y="100.9013" width="28.8812" height="28.8812"/>
+      <text class="cls-3" transform="translate(40.3669 116.6347)"><tspan x="0" y="0">#E1E3E4</tspan></text>
+    </g>
+    <g>
+      <rect class="cls-9" y="134.5351" width="28.8812" height="28.8812"/>
+      <text class="cls-4" transform="translate(40.3669 150.2685)"><tspan x="0" y="0">#314193</tspan></text>
+    </g>
+  </g>
+</svg>

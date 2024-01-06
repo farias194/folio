@@ -1,0 +1,129 @@
+:root{
+    --typeface: sans-serif;
+    font-size: 16px;
+    
+}
+body{
+    
+    height:100vh;
+    margin: 0;
+    font-family: var(--typeface);
+}
+
+#nav{
+  
+    display: flex;
+    flex-grow: space-between;
+}
+
+#nav ul{
+   
+    list-style: none;
+    align-self: flex-end;
+flex: 2;
+}
+#hi{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size:1rem;
+   
+    padding-bottom: 5rem;
+
+}
+h1{
+    text-decoration: none;
+    height: auto;
+    margin: auto;
+    color: black;
+    text-decoration: none;
+}
+#name{
+    font-family: "arial" ;
+    font-size: calc(9vw - 20px);
+    letter-spacing: -.5rem - 5px;
+    font-weight: bolder;
+    padding: 5rem;
+    width: 100%;}
+#bio{
+    
+    font-size: clamp(2vw,1rem,4rem);
+    padding: 1rem;
+    width: 90vw;
+    font-weight: lighter;
+    font-family: "ivyepic-variable", sans-serif;}
+
+/** Projects */
+
+.project{
+    list-style: none;
+    padding: 20px;
+    color: rgb(9, 9, 9);
+}
+
+#projectHolder{
+    padding-bottom: 5em;
+    display: grid;
+    text-align: center;
+    width: 100%;
+    
+    grid-template-columns: minmax(100px, 1fr);
+    grid-template-rows: minmax(4fr, auto);
+}
+#projectHolder h1 {
+    font-family: "ivyepic-variable", sans-serif;
+    font-weight: 400;
+    padding-bottom: 2rem;
+font-size: 3rem;}
+#projectHolder a{
+    text-decoration: none;
+
+}
+.imageHolder{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+#glaxiclean{
+    grid-row:1;
+    grid-column: 1fr;
+  
+}
+
+
+#glaxiclean:hover:after{
+    background-color:blue;
+}
+#glaxiclean img{
+    width:50%;
+}
+#gcvideo{
+    width: 40%;
+}
+
+#glaxicleanImageHolder{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#marcusbuildinggroup{
+    grid-column: 1fr;
+    grid-row: 2;
+}
+#marcusbuildinggroup img{
+    width: 50%;
+}
+
+#sunnyside img{
+    width: 100%;
+
+}
+#sunnyside video{
+    width: 70%;
+}
+#strugglemeals{
+    background-color: black;
+    width: 50%;
+    height: 20vw;}

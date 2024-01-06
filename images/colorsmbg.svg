@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 366.7693 368.16">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        letter-spacing: -.018em;
+      }
+
+      .cls-1, .cls-2, .cls-4, .cls-5 {
+        font-family: WorkSans-Regular, 'Work Sans';
+        font-size: 50px;
+        font-variation-settings: 'wght' 400;
+      }
+
+      .cls-1, .cls-2, .cls-4, .cls-5, .cls-6 {
+        isolation: isolate;
+      }
+
+      .cls-1, .cls-7 {
+        fill: #dbd6d0;
+      }
+
+      .cls-8 {
+        letter-spacing: -.034em;
+      }
+
+      .cls-2 {
+        fill: #263b7e;
+      }
+
+      .cls-9 {
+        letter-spacing: -.018em;
+      }
+
+      .cls-4, .cls-10 {
+        fill: #f4952f;
+      }
+
+      .cls-11 {
+        letter-spacing: -.045em;
+      }
+
+      .cls-5, .cls-12 {
+        fill: #d13727;
+      }
+
+      .cls-13 {
+        letter-spacing: -.058em;
+      }
+
+      .cls-14 {
+        fill: #1b1e4e;
+      }
+
+      .cls-14, .cls-12, .cls-7, .cls-10 {
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="Group_31" data-name="Group 31">
+      <rect id="Rectangle_69" data-name="Rectangle 69" class="cls-14" width="98.823" height="78.176"/>
+      <rect id="Rectangle_70" data-name="Rectangle 70" class="cls-12" y="102.874" width="98.823" height="78.175"/>
+      <rect id="Rectangle_71" data-name="Rectangle 71" class="cls-10" y="194.709" width="98.823" height="78.176"/>
+      <rect id="Rectangle_72" data-name="Rectangle 72" class="cls-7" y="289.984" width="98.823" height="78.176"/>
+    </g>
+    <g id="_0D1A50" data-name=" 0D1A50" class="cls-6">
+      <text class="cls-2" transform="translate(151.822 56.1601)"><tspan x="0" y="0">#0D1A50</tspan></text>
+    </g>
+    <g id="_D2341A" data-name=" D2341A" class="cls-6">
+      <text class="cls-5" transform="translate(138.822 159.1601)"><tspan class="cls-3" x="0" y="0">#D23</tspan><tspan class="cls-8" x="122.6987" y="0">4</tspan><tspan class="cls-9" x="151.5488" y="0">1</tspan><tspan class="cls-13" x="170.1484" y="0">A</tspan></text>
+    </g>
+    <g id="_F49530" data-name=" F49530" class="cls-6">
+      <text class="cls-4" transform="translate(138.822 243.1601)"><tspan class="cls-3" x="0" y="0">#</tspan><tspan class="cls-11" x="31.0498" y="0">F</tspan><tspan class="cls-9" x="59.2993" y="0">49530</tspan></text>
+    </g>
+    <g id="_DBD6D0_" data-name=" DBD6D0 " class="cls-6">
+      <text class="cls-1" transform="translate(138.822 335.1601)"><tspan x="0" y="0">#DBD6D0</tspan></text>
+    </g>
+  </g>
+</svg>
