@@ -8,7 +8,6 @@ max-width: 100%;
 height: auto;
 }
 #projectTitle   {
-    font-size: var(--headerFontSize);
     align-self: center;
     font-family: "ivyepic-variable", sans-serif; 
     color: black;
@@ -49,7 +48,7 @@ section {
     font-size: var(--bodyFont);
 }
 
-#mbglogo img{
+#mbglogo{
     align-self: center;
-    width: 20%;
+    max-width: 50%;
 }
