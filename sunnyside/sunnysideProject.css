@@ -3,3 +3,9 @@
     flex-direction: column;
     width: 100%;
 }
+#video{
+    max-width: 100%;
+}
+#sunnysidevid{
+    width: 100%
+}

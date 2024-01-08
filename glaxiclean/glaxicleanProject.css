@@ -43,23 +43,23 @@ body{
         font-family: "ivyepic-variable", sans-serif;
     font-weight: bold;
     padding: 2rem;
-    width: 80%;
-    line-height: calc(10px + 2rem);
-    font-size: calc(2rem - 5px);
-
+    line-height: calc(10px + 1rem);
+    font-size: 1rem;
 }
 #imageHolder{
     display: flex;
     flex-direction: row;
     max-width: 100%;
     flex-wrap: wrap;
-    padding: 5rem
+    gap: 1rem;
+    
 
 }
 #imageHolder img{
-    padding: 2rem;
-    height: auto;
-max-width: 30%;    }
+    max-width: 100%;
+    object-fit: contain;
+    
+   }
 #projectLink{
      font-family: "ivyepic-variable", sans-serif;
 
@@ -88,28 +88,3 @@ max-width: 30%;    }
     font-family: 'Comfortaa';
 }
 
-.colorSquare{
-    display:inline-block;
-    background-color: #A9DBDC;
-    width: 2rem;
-    height: 2rem;
-padding-right: 2rem;}
-#colors ul{
-    list-style-type: none;
-}
-#colors{
-    padding-left: 2rem;
-    font-size: 2rem;
-    width: 100%;
-}
-.colorList{
-    padding-left: 120px;
-}
-#color2{
-    min-width: 2em;
-
-    background-color: #33358B;
-}
-#brandColorsImage{
-    width: 25%;
-}
