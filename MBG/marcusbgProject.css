@@ -51,6 +51,5 @@ section {
 
 #mbglogo img{
     align-self: center;
-    padding: var(--paddingElement);
-    width: 30em;
+    width: 20%;
 }
