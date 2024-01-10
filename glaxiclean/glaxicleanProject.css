@@ -12,6 +12,7 @@
     
 }
 #name {
+    margin: 0px;
     font-family: "arial" ;
     font-size: calc(9vw - 20px);
     letter-spacing: -.5rem - 5px;
