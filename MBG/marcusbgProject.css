@@ -14,6 +14,7 @@ height: auto;
     text-decoration: none;
 }
 #projectTitle a {
+    font-size: 1rem;
     color: black;
     text-decoration: none;
 }
@@ -50,5 +51,15 @@ section {
 
 #mbglogo{
     align-self: center;
-    max-width: 50%;
+    max-width: 20rem;
+    padding: 2rem;
+}
+
+@media (width > 800px ) {
+    #imageHolder img{
+        max-width: 45%;
+        object-fit: contain;
+        
+       }
+    
 }

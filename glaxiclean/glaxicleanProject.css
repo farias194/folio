@@ -88,3 +88,13 @@ body{
     font-family: 'Comfortaa';
 }
 
+
+
+@media (width > 800px ) {
+    #imageHolder img{
+        max-width: 45%;
+        object-fit: contain;
+        
+       }
+    
+}
