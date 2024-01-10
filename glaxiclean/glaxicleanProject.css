@@ -6,10 +6,18 @@
     font-family: 'Comfortaa';
     src: url('./fonts/Comfortaa-VariableFont_wght.ttf') format('truetype');
 }
-#nav{
+#nav {
     font-family: "ivyepic-variable", sans-serif;
 
+    
 }
+#name {
+    font-family: "arial" ;
+    font-size: calc(9vw - 20px);
+    letter-spacing: -.5rem - 5px;
+    font-weight: bolder;
+    padding-left: 5rem;
+    width: 100%;}
 body{
     padding: 1rem;
     max-width: 100%;

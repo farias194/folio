@@ -1,4 +1,3 @@
-@import url('../styles/globals.css');
 
 *{
 }
@@ -7,6 +6,21 @@ max-width: 100%;
 
 height: auto;
 }
+
+#nav{
+  
+    display: flex;
+    flex-grow: space-between;
+}
+
+
+#name{
+    font-family: "arial";
+        font-size: calc(9vw - 20px);
+    letter-spacing: -.5rem - 5px;
+    font-weight: bolder;
+    padding-left: 5rem;
+    width: 100%;}
 #projectTitle   {
     align-self: center;
     font-family: "ivyepic-variable", sans-serif; 
@@ -18,8 +32,8 @@ height: auto;
     color: black;
     text-decoration: none;
 }
-#projectText{
-   font-family: "ivyepic-variable", sans-serif;
+#projectText {
+    font-family: "ivyepic-variable", sans-serif;
 }
 #projectHolder {
     font-family: 2rem;
@@ -44,8 +58,9 @@ section {
 
 #logoSection{
     flex-direction: column;
+    font-family: "ivyepic-variable", sans-serif;
+
     display: flex;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: var(--bodyFont);
 }
 
