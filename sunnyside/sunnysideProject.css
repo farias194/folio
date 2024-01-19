@@ -1,6 +1,19 @@
+#nav {
+    font-family: "ivyepic-variable", sans-serif;
+
+    
+}
+#name {
+    margin: 0px;
+    font-family: "arial" ;
+    font-size: calc(9vw - 20px);
+    letter-spacing: -.5rem - 5px;
+    font-weight: bolder;
+    padding-left: 5rem;
+    width: 100%;}
 #projectBody {
       font-family: Arial, Helvetica, sans-serif; 
-    
+    padding: 1rem;
     display: flex;
     flex-direction: column;
 }
@@ -9,4 +22,28 @@
 }
 #sunnysidevid{
     max-width: max(600px, 80%);
+}
+#projectBody p{
+    font-family: "ivyepic-variable", sans-serif;
+font-weight: bold;
+padding: 2rem;
+line-height: calc(10px + 1rem);
+font-size: 1rem;
+}
+#projectTitle   {
+    align-self: center;
+    font-family: "ivyepic-variable", sans-serif; 
+    color: black;
+    text-decoration: none;
+}
+#projectTitle a {
+    font-size: 1rem;
+    color: black;
+    text-decoration: none;
+}
+#projectText {
+    font-family: "ivyepic-variable", sans-serif;
+}
+#projectHolder {
+    font-family: 2rem;
 }

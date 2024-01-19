@@ -7,16 +7,15 @@ max-width: 100%;
 height: auto;
 }
 
-#nav{
-  
-    display: flex;
-    flex-grow: space-between;
+#nav {
+    font-family: "ivyepic-variable", sans-serif;
+
+    
 }
-
-
-#name{
-    font-family: "arial";
-        font-size: calc(9vw - 20px);
+#name {
+    margin: 0px;
+    font-family: "arial" ;
+    font-size: calc(9vw - 20px);
     letter-spacing: -.5rem - 5px;
     font-weight: bolder;
     padding-left: 5rem;
