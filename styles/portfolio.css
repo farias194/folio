@@ -57,7 +57,7 @@ h1{
 
 .project{
     list-style: none;
-    padding: 1rem 10rem 5rem 10rem;
+    padding: 1rem 5rem 5rem 1rem;
     color: rgb(9, 9, 9);
 }
 
@@ -128,3 +128,8 @@ font-size: 3rem;}
     background-color: black;
     width: 50%;
     height: 20vw;}
+
+    @media (Width > 800) {
+        .projects{padding: 1rem}
+        
+    }
