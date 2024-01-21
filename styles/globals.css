@@ -18,3 +18,18 @@
        }
     
 }
+#imageHolder{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    flex-wrap: wrap;
+    gap: 1rem;
+    
+
+}
+
+#imageHolder img{
+    max-width: 100%;
+    object-fit: contain;
+    
+   }

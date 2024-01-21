@@ -38,15 +38,16 @@ h1{
     text-decoration: none;
 }
 #name{
-    font-family: "arial" ;
-    font-size: calc(9vw - 20px);
+    font-family: "ivyepic-variable", sans-serif;
+    font-size: calc(14vw - 20px);
     letter-spacing: -.5rem - 5px;
     font-weight: bolder;
     padding-left: 5rem;
+    padding-bottom: 5rem;
     width: 100%;}
 #bio{
     
-    font-size: clamp(2vw,1rem,4rem);
+    font-size: clamp(1vw,1rem,2rem);
     padding: 1rem;
     width: 90vw;
     font-weight: lighter;
@@ -56,12 +57,11 @@ h1{
 
 .project{
     list-style: none;
-    padding: 20px;
+    padding: 1rem 10rem 5rem 10rem;
     color: rgb(9, 9, 9);
 }
 
 #projectHolder{
-    padding-bottom: 5em;
     display: grid;
     text-align: center;
     width: 100%;
@@ -69,6 +69,7 @@ h1{
     grid-template-columns: minmax(100px, 1fr);
     grid-template-rows: minmax(4fr, auto);
 }
+
 #projectHolder h1 {
     font-family: "ivyepic-variable", sans-serif;
     font-weight: 400;
