@@ -11,13 +11,12 @@
 
     
 }
-#name {
-    margin: 0px;
-    font-family: "arial" ;
-    font-size: calc(9vw - 20px);
-    letter-spacing: -.5rem - 5px;
+#name{
+    font-family: "ivyepic-variable", sans-serif;
+    font-size: calc(8vw - 20px);
     font-weight: bolder;
     padding-left: 5rem;
+  
     width: 100%;}
 body{
     padding: 1rem;

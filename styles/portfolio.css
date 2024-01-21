@@ -39,15 +39,14 @@ h1{
 }
 #name{
     font-family: "ivyepic-variable", sans-serif;
-    font-size: calc(14vw - 20px);
-    letter-spacing: -.5rem - 5px;
+    font-size: calc(8vw - 20px);
     font-weight: bolder;
     padding-left: 5rem;
     padding-bottom: 5rem;
     width: 100%;}
 #bio{
     
-    font-size: clamp(1vw,1rem,2rem);
+    font-size: clamp(2vw,1rem,3rem);
     padding: 1rem;
     width: 90vw;
     font-weight: lighter;
