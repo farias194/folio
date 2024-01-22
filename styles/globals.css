@@ -33,3 +33,17 @@
     object-fit: contain;
     
    }
+   #name{
+    font-family: "ivyepic-variable", sans-serif;
+    font-size: calc(8vw - 20px);
+    font-weight: bolder;
+    padding-left: 5rem;
+    width: 100%;}
+
+    ul {
+        list-style: none;
+    }
+
+ul a{
+font-size: 2rem;
+}
