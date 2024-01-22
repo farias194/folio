@@ -11,15 +11,8 @@
 
     
 }
-#name{
-    font-family: "ivyepic-variable", sans-serif;
-    font-size: calc(8vw - 20px);
-    font-weight: bolder;
-    padding-left: 5rem;
-    margin: 0px;
-    width: 100%;}
+
 body{
-    padding: 1rem;
     max-width: 100%;
 
 }

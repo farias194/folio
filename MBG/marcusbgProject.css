@@ -1,6 +1,5 @@
 
-*{
-}
+
 #imageHolder img{
 max-width: 100%;
 
@@ -12,14 +11,7 @@ height: auto;
 
     
 }
-#name {
-    margin: 0px;
-    font-family: "arial" ;
-    font-size: calc(9vw - 20px);
-    letter-spacing: -.5rem - 5px;
-    font-weight: bolder;
-    padding-left: 5rem;
-    width: 100%;}
+
 #projectTitle   {
     align-self: center;
     font-family: "ivyepic-variable", sans-serif; 

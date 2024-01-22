@@ -33,17 +33,26 @@
     object-fit: contain;
     
    }
+
+   #nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+   }
    #name{
     font-family: "ivyepic-variable", sans-serif;
-    font-size: calc(8vw - 20px);
+    font-size: calc(5vw - 20px);
     font-weight: bolder;
     padding-left: 5rem;
-    width: 100%;}
+    margin: 0px;
+    width: auto;}
 
-    ul {
-        list-style: none;
-    }
+   #nav h3{font-size: 1rem;
+color: black;}
 
-ul a{
-font-size: 2rem;
-}
+   #nav a{
+    color: black;
+    list-style-type: none;
+text-decoration: none;   }

@@ -3,12 +3,7 @@
 
     
 }
-#name{
-    font-family: "ivyepic-variable", sans-serif;
-    font-size: calc(8vw - 20px);
-    font-weight: bolder;
-    padding-left: 5rem;
-    width: 100%;}
+
 #projectBody {
       font-family: Arial, Helvetica, sans-serif; 
     padding: 1rem;

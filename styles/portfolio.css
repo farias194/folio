@@ -37,13 +37,7 @@ h1{
     color: black;
     text-decoration: none;
 }
-#name{
-    font-family: "ivyepic-variable", sans-serif;
-    font-size: calc(10vw - 20px);
-    font-weight: bolder;
-  margin: 2rem;
 
-    width: 100%;}
 #bio{
     
     font-size: clamp(2vw,1rem,3rem);
