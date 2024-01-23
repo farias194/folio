@@ -16,12 +16,6 @@ body{
     flex-grow: space-between;
 }
 
-#nav ul{
-   
-    list-style: none;
-    align-self: flex-end;
-flex: 2;
-}
 #hi{
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: normal;
@@ -41,8 +35,8 @@ h1{
 #bio{
     
     font-size: clamp(2vw,1rem,3rem);
-    padding: 1rem;
-    width: 90vw;
+    padding: 5rem;
+    width: 60vw;
     font-weight: lighter;
     font-family: "ivyepic-variable", sans-serif;}
 
