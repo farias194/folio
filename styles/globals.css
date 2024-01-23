@@ -40,13 +40,13 @@
    #nav{
     display: flex;
     flex-direction: column;
-    padding: 2rem;
     padding-left: 5rem;
     align-items: first baseline;
+    margin: 0px;
    }
    #name{
     font-family: "ivyepic-variable", sans-serif;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bolder;
     margin: 0px;
     width: auto;}
