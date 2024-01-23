@@ -58,3 +58,17 @@ color: black;}
     color: black;
     list-style-type: none;
 text-decoration: none;   }
+
+#projectLink{
+    font-size: 5rem;
+    align-self: center;
+    text-align: center;
+    font-family: "ivyepic-variable", sans-serif;
+    text-decoration: none;
+    color: black;
+}
+#projectLink a{
+    text-decoration: none;
+    color: black;
+}
+
