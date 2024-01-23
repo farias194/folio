@@ -20,7 +20,9 @@
 }
 #imageHolder{
     display: flex;
+    padding: 3rem;
     flex-direction: row;
+    align-items: first baseline  ;
     max-width: 100%;
     flex-wrap: wrap;
     justify-content: center;
@@ -37,16 +39,15 @@
 
    #nav{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
+    flex-direction: column;
     padding: 2rem;
+    padding-left: 5rem;
+    align-items: first baseline;
    }
    #name{
     font-family: "ivyepic-variable", sans-serif;
     font-size: 3rem;
     font-weight: bolder;
-    padding-left: 5rem;
     margin: 0px;
     width: auto;}
 
