@@ -9,13 +9,14 @@ body{
     font-family: var(--typeface);
 }
 
-#nav{
-  
+#nav{   
+    margin: 1vw;
     display: flex;
 align-items:center ;   
 flex-grow: space-between;
     flex-direction: row;
     flex-flow: wrap;
+    padding-bottom: calc(1vw + 150px);
 
 }
 
@@ -40,14 +41,14 @@ h1{
     width: 70vw;
     font-weight: lighter;
     font-size: 2rem;
-  
     font-family:'Times New Roman', Times, serif;}
 
 /** Projects */
 
 .project{
     list-style: none;
-    padding: 2rem;
+    padding: 5vw;
+    margin-bottom: 2vw;
     color: rgb(9, 9, 9);
 }
 .project p {
@@ -66,7 +67,7 @@ h1{
     font-family: "ivyepic-variable", sans-serif;
     font-weight: 400;
     padding-bottom: 2rem;
-font-size: 2rem;}
+font-size: 3rem;}
 #projectHolder a{
     text-decoration: none;
 
@@ -123,12 +124,14 @@ font-size: 2rem;}
     width: 50%;
     height: 20vw;}
 
-    @media (Width > 800) {
+    @media (Width < 800) {
         .projects
-        {padding: 1rem}
+        {padding: 1rem
+        }
 
 
         #nav{
             padding-bottom: 5rem;
         }
     }
+ 

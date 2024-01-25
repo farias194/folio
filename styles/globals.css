@@ -20,13 +20,13 @@
 }
 #imageHolder{
     display: flex;
-    padding: 3rem;
+    padding: 5vw 10vw 10vw 10vw;
     flex-direction: row;
     align-items: first baseline  ;
     max-width: 100%;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
+    gap: 2vw;
     
 
 }
@@ -70,5 +70,11 @@ text-decoration: none;   }
 #projectLink a{
     text-decoration: none;
     color: black;
+}
+#projectBody{
+  
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
 }
 
