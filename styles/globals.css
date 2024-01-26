@@ -48,7 +48,7 @@ body{
     flex-direction: column;
     align-items: first baseline;
     margin: 1vw;
-   
+   padding: 0px calc(2rem + 1vw) 0px 0px ; 
    }
    #name{
     font-family: "ivyepic-variable", sans-serif;
