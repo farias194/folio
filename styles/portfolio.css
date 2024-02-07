@@ -4,19 +4,60 @@
     
 }
 body{
-    height:100vh;
-    margin: 0;
+
+   margin: 0;
     font-family: var(--typeface);
+   
+}
+#brandColorWrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+#brandColorWrapper svg{
+    padding: 0px;
+    margin: 0px;
+    padding-top: 1rem;
 }
 
-#nav{   
+#nav{  
     display: flex;
-align-items:center ;   
-flex-grow: space-between;
-    flex-direction: row;
-    flex-flow: wrap;
-    padding-bottom: calc(1vw + 150px);
+    top: 0;
+    align-self: flex-start;
+    flex-direction: column;
+    padding: 2rem;
+    position: sticky;
+max-width: 30%;
+}
 
+#mainWrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: baseline;
+}
+#glaxicleanWrapper p{
+    font-family: 'Comfortaa';
+    font-size: 1rem;
+}
+#navTwo{
+    font-family: "ivyepic-variable", sans-serif;
+    display: flex;
+
+    flex-direction: row;
+    
+
+}
+#navTwo ul{
+    display: flex;
+    padding: 0px;
+flex-direction: row;
+    font-size: 3rem;
+    list-style-type: none;
+}
+#navTwo ul li{
+color: rgb(33, 33, 33);
 }
 
 #hi{
@@ -38,7 +79,7 @@ h1{
 #bio{
     margin: 0px;
     font-weight: lighter;
-    font-size: 2rem;
+    font-size: 1rem;
     font-family: "ivyepic-variable", sans-serif;
 }
 
@@ -46,7 +87,7 @@ h1{
 
 .project{
     list-style: none;
-    padding: 5vw;
+    text-align: center;
     margin-bottom: 2vw;
     color: rgb(9, 9, 9);
 }
@@ -54,20 +95,20 @@ h1{
     
     font-family: 'Times New Roman', Times, serif;
 }
+#projectWrapper{
+    width: auto;
+}
 #projectHolder{
-    display: grid;
-    text-align: center;
-    width: 100%;
-    
-    grid-template-columns: minmax(100px, 1fr);
-    grid-template-rows: minmax(4fr, auto);
+ display: flex;
+ padding: 5em;
+ flex-direction: column;
 }
 
 #projectHolder h1 {
     font-family: "ivyepic-variable", sans-serif;
     font-weight: 400;
     padding-bottom: 2rem;
-font-size: 3rem;}
+font-size: 2rem;}
 #projectHolder a{
     text-decoration: none;
 
@@ -79,6 +120,11 @@ font-size: 3rem;}
     flex-direction: row;
     width: 100%;
     flex-wrap: wrap;
+}
+#glaxicleanWrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 #glaxiclean{
     grid-row:1;
@@ -104,6 +150,11 @@ font-size: 3rem;}
 }
 
 
+#mbgWrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 #marcusbuildinggroup{
     grid-column: 1fr;
     grid-row: 2;
@@ -124,14 +175,32 @@ font-size: 3rem;}
     width: 50%;
     height: 20vw;}
 
-    @media (Width < 800) {
+    @media (width < 800px) {
+        #mainWrapper{
+            display: flex;
+            flex-direction: column;
+        }
+        #projectHolder{
+            padding: 1rem;
+        }
+        .projectWrapper{
+            align-items:last baseline
+        }
         .projects
         {padding: 1rem
         }
 
 
         #nav{
-            padding-bottom: 5rem;
+            position: relative;
+            max-width: 100%;
+        }
+        #navTwo{
+            display: none;
+        }
+        #navTwo ul{
+            display: flex;
+            flex-direction: column;
         }
     }
  

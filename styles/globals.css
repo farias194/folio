@@ -19,8 +19,7 @@
     
 }
 body{
-    display: flex;
-    flex-direction: column;
+    margin: 0px;
     background-color: rgb(246, 246, 246);
     
 }
@@ -42,17 +41,25 @@ body{
     object-fit: contain;
     
    }
-
-   #nav{
+   #nav{  
     display: flex;
+    top: 0;
+    align-self: flex-start;
+flex-grow: space-between;
     flex-direction: column;
-    align-items: first baseline;
-    width: 90%;
-    align-self: center;
-   }
+    padding: 2rem;
+    position: sticky;
+max-width: 30%;
+}
+#bio{
+    margin: 0px;
+    font-weight: lighter;
+    font-size: 1rem;
+    font-family: "ivyepic-variable", sans-serif;
+}
    #name{
     font-family: "ivyepic-variable", sans-serif;
-    font-size: clamp(4rem, 5vw, 10rem);
+    font-size: clamp(3rem, 3vw, 5rem);
     font-weight: bolder;
 margin: 10px;  
 color: rgb(41, 41, 41);
@@ -66,7 +73,12 @@ color: black;}
     color: black;
     list-style-type: none;
 text-decoration: none;   }
-
+#mainWrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: baseline;
+}
 #projectLink{
     font-size: 5rem;
     align-self: center;
@@ -86,3 +98,8 @@ text-decoration: none;   }
     flex-direction: column;
 }
 
+@media (width < 800) {
+    #nav{
+        position: relative;
+    }
+}
