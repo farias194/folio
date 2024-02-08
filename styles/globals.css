@@ -73,6 +73,8 @@ color: black;}
     color: black;
     list-style-type: none;
 text-decoration: none;   }
+
+
 #mainWrapper{
     display: flex;
     justify-content: space-between;
@@ -101,5 +103,10 @@ text-decoration: none;   }
 @media (width < 800) {
     #nav{
         position: relative;
+    }
+
+    #mainWrapper{
+        display: flex;
+        flex-direction: column;
     }
 }

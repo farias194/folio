@@ -88,6 +88,7 @@ h1{
 .project{
     list-style: none;
     text-align: center;
+    padding: 5rem;
     margin-bottom: 2vw;
     color: rgb(9, 9, 9);
 }
@@ -107,7 +108,6 @@ h1{
 #projectHolder h1 {
     font-family: "ivyepic-variable", sans-serif;
     font-weight: 400;
-    padding-bottom: 2rem;
 font-size: 2rem;}
 #projectHolder a{
     text-decoration: none;
@@ -181,15 +181,12 @@ font-size: 2rem;}
             flex-direction: column;
         }
         #projectHolder{
-            padding: 1rem;
+            padding: 2rem;
         }
         .projectWrapper{
             align-items:last baseline
         }
-        .projects
-        {padding: 1rem
-        }
-
+       
 
         #nav{
             position: relative;
@@ -202,5 +199,20 @@ font-size: 2rem;}
             display: flex;
             flex-direction: column;
         }
+
+     
+    } 
+   @media (width < 1201px){
+    .project{
+        padding: 2rem;
     }
- 
+        #glaxiclean video{
+            width: 100%;
+        }
+        #glaxiclean img{
+            width: 100%;
+        }
+        #marcusbuildinggroup img{
+            width: 100%;
+        }
+    }
