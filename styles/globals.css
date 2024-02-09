@@ -100,7 +100,7 @@ text-decoration: none;   }
     flex-direction: column;
 }
 
-@media (width < 800) {
+@media (width < 800px) {
     #nav{
         position: relative;
     }
