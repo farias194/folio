@@ -89,15 +89,37 @@ h1{
     list-style: none;
     text-align: center;
     padding: 5rem;
-    margin-bottom: 5vw;
+    margin-bottom: 5rem;
     color: rgb(9, 9, 9);
 }
 .project p {
     
     font-family: 'Times New Roman', Times, serif;
 }
-#projectWrapper{
+.project{
     width: auto;
+
+   
+}
+
+
+.projectName{
+
+    font-family: "ivyepic-variable", sans-serif;
+    font-weight: 400;
+font-size: 3rem;
+    opacity: 1;
+ 
+}
+.projectName a{
+    color: rgb(31, 31, 31);
+}
+.imageHolder{
+    opacity: .3;
+    position: relative;
+}
+.imageHolder:hover{
+    opacity: 1;
 }
 #projectHolder{
  display: flex;
@@ -105,10 +127,7 @@ h1{
  flex-direction: column;
 }
 
-#projectHolder h1 {
-    font-family: "ivyepic-variable", sans-serif;
-    font-weight: 400;
-font-size: 2rem;}
+
 #projectHolder a{
     text-decoration: none;
 
@@ -204,7 +223,13 @@ font-size: 2rem;}
     } 
    @media (width < 1201px){
     .project{
+
         padding: 2rem;
+        margin-bottom: 2vw;
+    }
+    #nav{
+        min-height: 100vh;
+
     }
         #glaxiclean video{
             width: 100%;
