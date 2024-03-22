@@ -53,6 +53,9 @@ section {
     max-width: 20rem;
     padding: 2rem;
 }
+#MasterProjectWrapper{
+    background-color: rgba(233, 196, 128, 0.297);
+}
 
 @media (width > 800px ) {
     #imageHolder img{
