@@ -103,6 +103,7 @@ text-decoration: none;   }
 @media (width < 800px) {
     #nav{
         position: relative;
+        height: auto;
     }
 
     #mainWrapper{
