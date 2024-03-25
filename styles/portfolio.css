@@ -116,12 +116,9 @@ font-size: 3rem;
     color: rgb(31, 31, 31);
 }
 .imageHolder{
-    opacity: .3;
     position: relative;
 }
-.imageHolder:hover{
-    opacity: 1;
-}
+
 #projectHolder{
  display: flex;
  padding: 5em;
