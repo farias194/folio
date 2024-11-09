@@ -17,11 +17,7 @@ body{
     max-width: 100%;
 
 }
-#projectHolder{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 #projectTags{
     padding: 2rem;
 }
@@ -36,10 +32,10 @@ body{
     font-size: 1rem;
 }
 #projectBody{
-  
-    display: flex;
-    width: fit-content;
-    flex-direction: column;
+    font-family: "ivyepic-variable", sans-serif;
+    background-color: aqua;
+ 
+
 }
 #projectBody p{
         font-family: "ivyepic-variable", sans-serif;
@@ -61,8 +57,8 @@ body{
 
 }
 #projectLogo{
-    align-self: center;
-    width: 30%;
+    filter: contrast(375%) grayscale(50%);
+    width: 50%;
 }
 #projectLink a{
     text-decoration: none;
@@ -70,11 +66,9 @@ body{
 }
 
 #projectText{
-    padding: clamp(1vw, 2rem + 2vw, 5rem);
     font-size: 2rem;
   font-family: "ivyepic-variable", sans-serif;
 align-self: center;
-width: 80%;    
 }
 #vid{
     width: 40%;
@@ -83,14 +77,12 @@ width: 80%;
 #elements{
     font-family: 'Comfortaa';
 }
-#MasterProjectWrapper{
-     padding: 2em;
-}
+
 
 
 @media (width > 800px ) {
     #imageHolder img{
-        max-width: 45%;
+        max-width: 50%;
         object-fit: contain;
         
        }

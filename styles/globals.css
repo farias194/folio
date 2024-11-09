@@ -12,7 +12,7 @@
 }
 @media (width > 800px ) {
     #imageHolder img{
-        max-width: 45%;
+        max-width: 50%;
         object-fit: contain;
         
        }
@@ -25,13 +25,11 @@ body{
 }
 #imageHolder{
     display: flex;
-    padding: 5vw 10vw 10vw 10vw;
     flex-direction: row;
     align-items: first baseline  ;
     max-width: 100%;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2vw;
     
 
 }
@@ -43,13 +41,29 @@ body{
    }
    #nav{  
     display: flex;
-    top: 0;
+    background-image: linear-gradient(
+        to top,
+        rgba(244, 244, 244, 0.261) 0%,
+        rgba(241, 239, 239, 0.91) 50%,
+        rgb(235, 235, 235) 100%
+    );
+        top: 0;
     align-self: flex-start;
-flex-grow: space-between;
-    flex-direction: column;
-    padding: 2rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: first baseline;
+    align-items: center;
     position: sticky;
-max-width: 30%;
+    min-width: 100%;
+    transition: background-image 200ms ease-in-out;
+}
+#nav:hover{
+    background-image: linear-gradient(
+        to top,
+        rgba(244, 244, 244, 0.764) 0%,
+        rgba(241, 239, 239, 0.967) 50%,
+        rgb(235, 235, 235) 100%
+    );
 }
 #bio{
     margin: 0px;
@@ -59,7 +73,7 @@ max-width: 30%;
 }
    #name{
     font-family: "ivyepic-variable", sans-serif;
-    font-size: clamp(3rem, 3vw, 5rem);
+    font-size: 1rem;
     font-weight: bolder;
 margin: 10px;  
 color: rgb(41, 41, 41);
@@ -68,6 +82,11 @@ padding-bottom:1rem;
 
    #nav #about{font-size: 1rem;
 color: black;}
+
+#nav>*{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
 
    #nav a{
     color: black;
@@ -78,35 +97,90 @@ text-decoration: none;   }
 #mainWrapper{
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
+    flex-direction: column;
     align-items: baseline;
 }
+
+#MasterProjectWrapper{
+    margin: 0px;
+    padding: 0px
+}
+#projectHolder{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
 #projectLink{
-    font-size: 5rem;
+    padding: 0 1rem 0 1rem ;
+    border: none;
+    font-size: 1rem;
     align-self: center;
     text-align: center;
     font-family: "ivyepic-variable", sans-serif;
     text-decoration: none;
     color: black;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px rgba(146, 230, 230, 0.366);
+    background-color: rgba(163, 224, 232, 0.521);
 }
+
 #projectLink a{
     text-decoration: none;
     color: black;
 }
 #projectBody{
-  
+
     display: flex;
     width: fit-content;
+    flex-direction: row;
+}
+#projectLogoHolder{
+    display: flex;
     flex-direction: column;
 }
+#projectExplainer h1{
+    font-size: clamp(10px + 4rem, 6vw, 10rem);
+margin: 0px;
+}
+#footer{
+    display: flex;
+    flex-direction: row;
+}
+#top img{
+    max-width: 20px;
+}
 
-@media (width < 800px) {
+#logoanimation {
+    align-self: center;
+width: 100%;
+margin: 0px;
+mix-blend-mode: lighten;
+}
+
+.navScroll{
+    color: blue;
+}
+
+
+@media (width < 900px) {
     #nav{
-        position: relative;
-        height: auto;
+        display: flex;
+
+position: sticky;     
+   height: auto;
+        flex-direction: column;
+        flex-direction: column;
+
     }
+  #name{
+    font-size: 1rem;
+  }
 
     #mainWrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    #projectBody{
         display: flex;
         flex-direction: column;
     }

@@ -22,20 +22,12 @@ body{
     padding-top: 1rem;
 }
 
-#nav{  
-    display: flex;
-    top: 0;
-    align-self: flex-start;
-    flex-direction: column;
-    padding: 2rem;
-    position: sticky;
-max-width: 30%;
-}
+
 
 #mainWrapper{
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
+    flex-direction: column;
     align-items: baseline;
 }
 #glaxicleanWrapper p{
@@ -44,19 +36,11 @@ max-width: 30%;
 }
 #navTwo{
     font-family: "ivyepic-variable", sans-serif;
-    display: flex;
 
-    flex-direction: row;
     
 
 }
-#navTwo ul{
-    display: flex;
-    padding: 0px;
-flex-direction: row;
-    font-size: 3rem;
-    list-style-type: none;
-}
+
 #navTwo ul li{
 color: rgb(33, 33, 33);
 }
@@ -81,12 +65,15 @@ h1{
     margin: 0px;
     font-weight: lighter;
     font-size: 1rem;
+    align-self: center;
     font-family: "ivyepic-variable", sans-serif;
 }
 
 /** Projects */
 
 .project{
+    cursor: url('../images/mousecursor.svg'), auto;
+
     list-style: none;
     text-align: center;
     padding: 5rem;
@@ -115,13 +102,13 @@ font-size: 3rem;
 .projectName a{
     color: rgb(31, 31, 31);
 }
+
 .imageHolder{
-    position: relative;
 }
 
 #projectHolder{
  display: flex;
- padding: 5em;
+ padding:0 10rem 0 10rem;
  flex-direction: column;
 }
 
@@ -205,10 +192,7 @@ font-size: 3rem;
         }
        
 
-        #nav{
-            position: relative;
-            max-width: 100%;
-        }
+       
         #navTwo{
             display: none;
         }
@@ -225,10 +209,8 @@ font-size: 3rem;
         padding: 2rem;
         margin-bottom: 2vw;
     }
-    #nav{
-        min-height: 100vh;
 
-    }
+   
         #glaxiclean video{
             width: 100%;
         }
