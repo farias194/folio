@@ -1,6 +1,8 @@
 *{
 
+
 }
+
 
 @font-face {
     font-family: 'Comfortaa';
@@ -17,9 +19,23 @@ body{
     max-width: 100%;
 
 }
-
+#MasterProjectWrapper{
+    max-width: 100%;
+}
 #projectTags{
     padding: 2rem;
+}
+#projectExplainer{
+    font-size: clamp(20px + 1rem, 1vw, 2rem);
+    width: min-content;
+}
+#projectHolder{
+    justify-content: space-between;
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    padding: clamp(1rem, 2vw,3rem);
+    flex-direction: row;
 }
 #projectTags span{
     background-color: #303030;
@@ -35,16 +51,15 @@ body{
     font-family: "ivyepic-variable", sans-serif;
     background-color: aqua;
     display: flex;
-    flex-direction: row;
- 
+    flex-direction: column;
+    justify-content: center;
 
 }
 #projectBody p{
         font-family: "ivyepic-variable", sans-serif;
     font-weight: bold;
-    padding: 2rem;
-    line-height: calc(10px + 1rem);
-    font-size: 1rem;
+    line-height: clamp(20px, calc(1vw + 1rem) + 10px, 3rem + 10px);
+    font-size: clamp(20px, calc(1vw + 1rem), 3rem);
 }
 
 #imageHolder img{
@@ -66,9 +81,18 @@ body{
     text-decoration: none;
     color: black;
 }
-
+#logoanimation{
+    padding: 2rem;
+}
+#projectLogo{
+    align-self: center;
+}
+#lottieContainer{
+width: clamp(100px, calc(5vw + 400px), 100%);;
+}
 #projectText{
-    font-size: 2rem;
+    width:calc(min(100%, 80vw)) ;
+    max-width: 80%;
   font-family: "ivyepic-variable", sans-serif;
 align-self: center;
 }

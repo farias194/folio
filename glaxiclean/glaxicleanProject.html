@@ -7,6 +7,7 @@
     <link rel ='stylesheet' href="../styles/globals.css">
     <link rel="stylesheet" href="./glaxicleanProject.css">
     <link rel="stylesheet" href="https://use.typekit.net/gll5rwy.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.6/lottie.min.js"></script>
 
 </head>
 <body>
@@ -28,8 +29,10 @@ about        </h1>
 
 <section id="projectBody">
     <section id="projectHolder">
-        <video autoplay ='true' loop id='logoanimation'src ="./images/logoanim_1.mp4"></video>
+       <!--<video autoplay ='true' loop id='logoanimation'src ="./images/logoanim_1.mp4"></video>-->
+        <div id ='lottieContainer'>
 
+        </div>
     <div id="projectExplainer"> <h1>An approachable cleaning company</h1></div>
 
 
@@ -45,9 +48,9 @@ about        </h1>
             Glaxiclean, as well as a logo and buisinesscard.</p>
             <p>research found that competitors in the home cleaning buisiness had similar branding and voice. In order to differentiate itself from the competition, the goal was to differentiate Glaxiclean through a bespoke brand identity that still remained recognizable as a home cleaning service provider. This was achieved through the use of graphics that invoke the act of cleaning itself as well as the logo.</p>
         </div>
-   
+        <a href="https://glaxiclean.vercel.app"><button id ='projectLink'><h1 > view Live Site</h1></button></a>
+
 </section>
-<a href="https://glaxiclean.vercel.app"><button id ='projectLink'><h1 > view Live Site</h1></button></a>
 <div id="projectLogoHolder">
     <img id='projectLogo' src="./images/logo2.svg" alt=" ">
    
@@ -84,3 +87,17 @@ about        </h1>
 </body>
 
 </html>
+
+<script>
+
+    lottie.loadAnimation({
+
+        container: document.getElementById('lottieContainer'),
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: './images/gcanimation4.json'
+    });
+
+ 
+</script>

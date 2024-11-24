@@ -19,6 +19,7 @@ body{
 #brandColorWrapper svg{
     padding: 0px;
     margin: 0px;
+    width: max-content;
     padding-top: 1rem;
 }
 
@@ -104,11 +105,11 @@ font-size: 3rem;
 }
 
 .imageHolder{
+    justify-content: center;
 }
 
 #projectHolder{
  display: flex;
- padding:0 10rem 0 10rem;
  flex-direction: column;
 }
 
@@ -125,15 +126,56 @@ font-size: 3rem;
     width: 100%;
     flex-wrap: wrap;
 }
-#glaxicleanWrapper{
+.imageHolder > *  {
+    width: clamp(50%, 80vw, 80%);
+}
+.projectWrapper{
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 0 clamp(20px, calc(1rem + 1vw), 5rem) 0 clamp(20px, calc(1rem + 1vw), 5rem);
+        justify-content: center;
+
+    position: relative;
+
+
+}
+
+.overlay{
+    position: absolute;
+   text-align: center;
+   background: radial-gradient(circle, rgba(169,246,245,.23) 51%, rgba(55, 252, 213, 0.262) 84%, rgba(0,255,224,0) 100%); 
+
+    justify-content: center;
+    opacity: 0;
+    top: 0;
+  
+    z-index: 3;
+   font-size: 10rem;
+}
+.overlay:hover{
+opacity: 1;
+transition: 1s;
+width: 80%;
+height: 80%;
+}
+.overlay h1{
+    font-family: "ivyepic-variable", sans-serif;
+    padding: 5rem;
+}
+.overlay p{
+font-size: 1rem;
 }
 #glaxiclean{
     grid-row:1;
     grid-column: 1fr;
+     background: radial-gradient(circle, rgba(169, 246, 245, 0) 51%, rgba(55, 252, 213, 0) 84%, rgba(0,255,224,0)100%); 
+
   
+}
+#glaxiclean:hover{
+    background: radial-gradient(circle, rgba(169,246,245,1) 51%, rgba(55,252,212,1) 84%, rgba(0,255,224,0) 100%); 
+    transition:1s;
 }
 
 
@@ -144,27 +186,33 @@ font-size: 3rem;
     width:50%;
 }
 #gcvideo{
+    object-fit: cover;
     width: 40%;
 }
 
-#glaxicleanImageHolder{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-}
 
 
-#mbgWrapper{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+#glaxicleanImageHolder img {
+    object-fit: contain;
+    max-width: 100%;
+
 }
+
 #marcusbuildinggroup{
     grid-column: 1fr;
     grid-row: 2;
+    background: none;
+}
+#marcusbuildinggroup:hover{
+   background:  linear-gradient(90deg, rgba(236,157,90,0.4191877434567577) 7%, rgba(236,157,90,1) 60%, rgba(236,210,164,1) 84%, rgba(252,228,55,0) 93%);  
+     transition: 2s;
 }
 #marcusbuildinggroup img{
     width: 50%;
+}
+#overlayMBG{
+    background:  linear-gradient(90deg, rgba(236,157,90,0.4191877434567577) 7%, rgba(236,157,90,1) 60%, rgba(236,210,164,1) 84%, rgba(252,228,55,0) 93%);  
+
 }
 
 #sunnyside img{
@@ -179,38 +227,20 @@ font-size: 3rem;
     width: 50%;
     height: 20vw;}
 
-    @media (width < 800px) {
-        #mainWrapper{
-            display: flex;
-            flex-direction: column;
-        }
-        #projectHolder{
-            padding: 2rem;
-        }
-        .projectWrapper{
-            align-items:last baseline
-        }
-       
 
-       
-        #navTwo{
-            display: none;
-        }
-        #navTwo ul{
-            display: flex;
-            flex-direction: column;
-        }
 
-     
-    } 
-   @media (width < 1201px){
+
+   /*       Ipad Size       */
+   @media (width < 1001px){
     .project{
 
         padding: 2rem;
         margin-bottom: 2vw;
     }
 
-   
+   #projectHolder{
+    padding: 1rem;
+   }
         #glaxiclean video{
             width: 100%;
         }
@@ -220,4 +250,64 @@ font-size: 3rem;
         #marcusbuildinggroup img{
             width: 100%;
         }
+        .overlay{
+            display: none;
+        }
+    }
+
+
+
+/*        Mobile Size             */
+
+
+
+    @media (width < 800px) {
+        .overlay{
+            display: none;
+        }
+        #mainWrapper{
+            display: flex;
+            flex-direction: column;
+        }
+        #projectHolder{
+            padding: 2rem;
+        }
+        .projectWrapper{
+            display: flex;
+            padding: 10px;
+            flex-direction: column;
+align-items: flex-start;        }
+       
+.projectWrapper img, video{
+    width: clamp(400px, 50%, 100%);}
+        
+        #glaxiclean img,
+        #glaxiclean video {
+            width: 400px;
+            max-width: 100%;
+        }
+        .projectWrapper img, video{
+            width: 50%;
+        }
+    
+        #navTwo{
+            display: none;
+        }
+        #navTwo ul{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .imageHolder{
+            display: flex;
+            max-width: 100%;
+            flex-direction: column;
+        }
+     #brandColorWrapper{
+        display: flex;
+        flex-direction: row;
+        max-width: 50%;
+        align-self: center;
+        justify-content: space-around;
+     }
     }

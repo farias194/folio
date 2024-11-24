@@ -18,5 +18,6 @@ if ( y>1){
     }
 }
     
+const overlayName = document.querySelectorAll('.projectName a')
 
-
+console.log(overlayName)

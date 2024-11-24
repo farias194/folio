@@ -7,6 +7,8 @@
 --bodyFont: calc(var(--headerFontSize) / 2)
 --headerTypeFace: "hwt-roman-extended-light-fac", serif;
 --bodyTypeFace:  "ivyepic-variable", sans-serif;
+--projectBodyFontSize : clamp(20px, calc(1vw + 1rem), 3rem);
+--projectBodyLineHeight: calc((var(--projectBodyFontSize)) + 20px);
 
 
 }
@@ -50,6 +52,7 @@ body{
         top: 0;
     align-self: flex-start;
     flex-direction: row;
+    z-index: 4;
     justify-content: space-between;
     align-content: first baseline;
     align-items: center;
@@ -65,6 +68,37 @@ body{
         rgb(235, 235, 235) 100%
     );
 }
+
+#footer{
+    display: flex;
+    background-image: linear-gradient(
+        to top,
+        rgba(244, 244, 244, 0.261) 0%,
+        rgba(241, 239, 239, 0.91) 50%,
+        rgb(235, 235, 235) 100%
+    );
+        top: 0;
+    align-self: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: first baseline;
+    align-items: center;
+    min-width: 100%;
+    transition: background-image 200ms ease-in-out;
+}
+
+#footer:hover{
+    background-image: linear-gradient(
+        to top,
+        rgba(244, 244, 244, 0.764) 0%,
+        rgba(241, 239, 239, 0.967) 50%,
+        rgb(235, 235, 235) 100%
+    );
+    padding-bottom: 5rem;
+    margin-top: -5rem;
+    transition: .5s;
+}
+
 #bio{
     margin: 0px;
     font-weight: lighter;
@@ -80,7 +114,7 @@ color: rgb(41, 41, 41);
 padding-bottom:1rem;
   width: auto;}
 
-   #nav #about{font-size: 1rem;
+   #nav #about{font-size: arem;
 color: black;}
 
 #nav>*{
@@ -139,7 +173,7 @@ text-decoration: none;   }
     flex-direction: column;
 }
 #projectExplainer h1{
-    font-size: clamp(10px + 4rem, 6vw, 10rem);
+    font-size: clamp(10px + 2rem, 6vw, 10rem);
 margin: 0px;
 }
 #footer{
@@ -160,6 +194,11 @@ mix-blend-mode: lighten;
 .navScroll{
     color: blue;
 }
+#imageHolder img{
+    max-width: 50%;
+    object-fit: contain;
+    
+   }
 
 
 @media (width < 900px) {
@@ -179,9 +218,16 @@ position: sticky;
     #mainWrapper{
         display: flex;
         flex-direction: column;
-    }
+    } 
     #projectBody{
         display: flex;
         flex-direction: column;
     }
+
+  
+    
+
+
+    
+    
 }

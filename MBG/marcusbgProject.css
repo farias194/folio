@@ -40,6 +40,7 @@ section {
 
 #logoSection{
     flex-direction: row;
+    flex-wrap: wrap;
     font-family: "ivyepic-variable", sans-serif;
     background-color: rgb(255, 200, 0);
 
@@ -53,11 +54,10 @@ section {
     padding: 2rem;
 }
 #projectExplainer{
-}
-#projectExplainer h1{
-    font-size: 10rem;
+    font-size: clamp(20px + 1rem, 1vw, 2rem);
 
 }
+
 #MasterProjectWrapper{
 }
 
