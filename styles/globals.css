@@ -28,7 +28,7 @@ body{
 #imageHolder{
     display: flex;
     flex-direction: row;
-    align-items: first baseline  ;
+    align-items: flex-start;
     max-width: 100%;
     flex-wrap: wrap;
     justify-content: center;

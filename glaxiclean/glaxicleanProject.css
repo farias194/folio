@@ -77,6 +77,9 @@ body{
     filter: contrast(375%) grayscale(50%);
     width: 50%;
 }
+#projectBody a {
+align-self: center;
+}
 #projectLink a{
     text-decoration: none;
     color: black;
