@@ -44,6 +44,7 @@ body{
    #nav{  
     display: flex;
     background-image: linear-gradient(
+
         to top,
         rgba(244, 244, 244, 0.261) 0%,
         rgba(241, 239, 239, 0.91) 50%,
@@ -87,27 +88,16 @@ body{
     transition: background-image 200ms ease-in-out;
 }
 
-#footer:hover{
-    background-image: linear-gradient(
-        to top,
-        rgba(244, 244, 244, 0.764) 0%,
-        rgba(241, 239, 239, 0.967) 50%,
-        rgb(235, 235, 235) 100%
-    );
-    padding-bottom: 5rem;
-    margin-top: -5rem;
-    transition: .5s;
-}
 
 #bio{
     margin: 0px;
     font-weight: lighter;
-    font-size: 1rem;
+    font-size: 2rem;
     font-family: "ivyepic-variable", sans-serif;
 }
    #name{
     font-family: "ivyepic-variable", sans-serif;
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: bolder;
 margin: 10px;  
 color: rgb(41, 41, 41);
@@ -128,6 +118,9 @@ color: black;}
 text-decoration: none;   }
 
 
+#navTwo ul li{
+    list-style: none;
+}
 #mainWrapper{
     display: flex;
     justify-content: space-between;
@@ -200,6 +193,14 @@ mix-blend-mode: lighten;
     
    }
 
+   @media (width > 800px ) {
+    #imageHolder img{
+        max-width: 50%;
+        object-fit: contain;
+        
+       }
+    
+}
 
 @media (width < 900px) {
     #nav{

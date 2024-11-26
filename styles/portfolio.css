@@ -62,13 +62,6 @@ h1{
     text-decoration: none;
 }
 
-#bio{
-    margin: 0px;
-    font-weight: lighter;
-    font-size: 1rem;
-    align-self: center;
-    font-family: "ivyepic-variable", sans-serif;
-}
 
 /** Projects */
 
@@ -110,6 +103,7 @@ font-size: 3rem;
 
 #projectHolder{
  display: flex;
+ align-content: center;
  flex-direction: column;
 }
 

@@ -1,10 +1,5 @@
 
 
-#imageHolder img{
-max-width: 100%;
-
-height: auto;
-}
 
 #nav {
     font-family: "ivyepic-variable", sans-serif;
@@ -61,12 +56,3 @@ section {
 #MasterProjectWrapper{
 }
 
-
-@media (width > 800px ) {
-    #imageHolder img{
-        max-width: 45%;
-        object-fit: contain;
-        
-       }
-    
-}
