@@ -106,7 +106,18 @@ align-self: center;
 #elements{
     font-family: 'Comfortaa';
 }
-
+.lists{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+    flex-direction: row;
+}
+.lists ul li{
+    font-size: 1rem;
+    list-style-type: none;
+text-decoration: underline;
+margin-bottom: 1rem;}
 
 
 @media (width > 800px ) {

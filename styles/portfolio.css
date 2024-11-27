@@ -141,6 +141,15 @@ font-size: 3rem;
 .imageHolder > video{
     max-width: 100%;
 }
+.projectTitle{
+    text-decoration: none;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+
+}
+.projectTitle a{
+}
+
 .projectWrapper{
     display: flex;
     flex-direction: row;

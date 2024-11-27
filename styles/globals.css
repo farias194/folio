@@ -194,6 +194,18 @@ mix-blend-mode: lighten;
 .navScroll{
     color: blue;
 }
+.lists{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+    flex-direction: row;
+}
+.lists ul li{
+    font-size: 1rem;
+    list-style-type: none;
+text-decoration: underline;
+margin-bottom: 1rem;}
 #imageHolder img{
     max-width: 50%;
     object-fit: contain;
