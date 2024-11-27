@@ -203,7 +203,6 @@ mix-blend-mode: lighten;
     width: 80%;
     display: flex;
     justify-content: space-between;
-    align-self: flex-start;
     flex-direction: row;
 }
 .lists ul li{
