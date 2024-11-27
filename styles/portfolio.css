@@ -148,6 +148,8 @@ font-size: 3rem;
 
 }
 .projectTitle a{
+    color: black;
+    font-size: 3rem;
 }
 
 .projectWrapper{
