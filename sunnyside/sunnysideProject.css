@@ -15,12 +15,7 @@
 #sunnysidevid{
     max-width: max(600px, 80%);
 }
-#projectBody p{
-    font-family: "ivyepic-variable", sans-serif;
-font-weight: bold;
-padding: 2rem;
-font-size: clamp(20px + 1rem, 1vw, 2rem);
-}
+
 #projectTitle   {
     align-self: center;
     font-family: "ivyepic-variable", sans-serif; 
