@@ -12,14 +12,7 @@
 
 
 }
-@media (width > 800px ) {
-    #imageHolder img{
-        max-width: 50%;
-        object-fit: contain;
-        
-       }
-    
-}
+
 body{
     font-family: 'ivyepic-variable', sans-serif;
     margin: 0px;
@@ -34,7 +27,6 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     
-
 }
 
 #imageHolder img{
@@ -211,20 +203,9 @@ mix-blend-mode: lighten;
     list-style-type: none;
 text-decoration: underline;
 margin-bottom: 1rem;}
-#imageHolder img{
-    max-width: 50%;
-    object-fit: contain;
-    
-   }
 
-   @media (width > 800px ) {
-    #imageHolder img{
-        max-width: 50%;
-        object-fit: contain;
-        
-       }
-    
-}
+
+
 
 @media (width < 900px) {
     #nav{
@@ -254,5 +235,18 @@ position: sticky;
 
 
     
+    
+}
+@media (width > 800px ) {
+    #imageHolder img{
+        max-width: 50%;
+        object-fit: contain;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+       }
     
 }
