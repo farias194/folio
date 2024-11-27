@@ -21,10 +21,10 @@
 #projectText {
     font-family: "ivyepic-variable", sans-serif;
 }
-#projectHolder {
-    font-family: 2rem;
-}
+#projectBody{
+    background-color: rgb(255, 200, 0);
 
+}
   
 
 
@@ -37,7 +37,6 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
     font-family: "ivyepic-variable", sans-serif;
-    background-color: rgb(255, 200, 0);
 
     display: flex;
     font-size: var(--bodyFont);

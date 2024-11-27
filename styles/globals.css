@@ -131,15 +131,21 @@ text-decoration: none;   }
     flex-direction: column;
     align-items: baseline;
 }
-
+#projectExplainer{
+    max-width: 45%;
+}
 #MasterProjectWrapper{
     margin: 0px;
     width: 100%;
     padding: 0px
 }
+
 #projectHolder{
-    max-width: 100%;
+    justify-content: space-between;
     display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    padding: clamp(1rem, 2vw,3rem);
     flex-direction: row;
 }
 #projectLink{
@@ -161,10 +167,9 @@ text-decoration: none;   }
     color: black;
 }
 #projectBody{
-
-    display: flex;
-    width: fit-content;
-    flex-direction: column;
+display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 #projectLogoHolder{
     display: flex;
