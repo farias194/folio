@@ -9,6 +9,22 @@ body{
     
    
 }
+.workListContianer{
+    align-content: center;
+}
+.workList{
+    align-content: center;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: first baseline;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+.workList li{
+}
 #brandColorWrapper{
     display: flex;
     flex-direction: column;
@@ -119,8 +135,11 @@ font-size: 3rem;
     width: 100%;
     flex-wrap: wrap;
 }
-.imageHolder > *  {
+.imageHolder > img  {
     width: clamp(50%, 80vw, 80%);
+}
+.imageHolder > video{
+    max-width: 100%;
 }
 .projectWrapper{
     display: flex;
@@ -212,9 +231,7 @@ font-size: 1rem;
     width: 100%;
 
 }
-#sunnyside video{
-    width: 70%;
-}
+
 #strugglemeals{
     background-color: black;
     width: 50%;
@@ -255,6 +272,9 @@ font-size: 1rem;
 
 
     @media (width < 800px) {
+        .workList{
+            display: none
+        }
         .overlay{
             display: none;
         }
@@ -262,6 +282,7 @@ font-size: 1rem;
             display: flex;
             flex-direction: column;
         }
+       
         #projectHolder{
             padding: 2rem;
         }
@@ -280,7 +301,7 @@ align-items: flex-start;        }
             max-width: 100%;
         }
         .projectWrapper img, video{
-            width: 50%;
+            width: 100%;
         }
     
         #navTwo{
@@ -303,4 +324,7 @@ align-items: flex-start;        }
         align-self: center;
         justify-content: space-around;
      }
+     video{
+        max-width: 100%;
+    }
     }
