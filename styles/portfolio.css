@@ -12,7 +12,9 @@ body{
 .workListContianer{
     align-content: center;
 }
-
+.carouselTextContainer{
+    display: none;
+}
 .workList{
     align-content: center;
     align-self: center;
@@ -73,7 +75,6 @@ color: rgb(33, 33, 33);
 h1{
     text-decoration: none;
     height: auto;
-    margin: auto;
     color: rgb(25, 8, 8);
     text-decoration: none;
 }
