@@ -49,7 +49,7 @@ body{
     z-index: 4;
     justify-content: space-between;
     align-content: first baseline;
-    align-items: center;
+    align-items: baseline;
     position: sticky;
     min-width: 100%;
     transition: background-image 200ms ease-in-out;
@@ -204,6 +204,9 @@ mix-blend-mode: lighten;
 text-decoration: underline;
 margin-bottom: 1rem;}
 
+#nav ul{
+    padding: 0px;
+}
 
 
 
@@ -212,6 +215,7 @@ margin-bottom: 1rem;}
         display: flex;
 
 position: sticky;     
+align-items: center;
    height: auto;
         flex-direction: column;
         flex-direction: column;
