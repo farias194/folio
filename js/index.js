@@ -21,3 +21,16 @@ if ( y>1){
 const overlayName = document.querySelectorAll('.projectName a')
 
 console.log(overlayName)
+
+
+
+/*function bgChange(){
+
+    const y = window.scrollY;
+    if (y < 600){
+document.getElementById('MasterProjectWrapper').style.backgroundColor='black'
+}
+else
+document.getElementById('MasterProjectWrapper').style.backgroundColor='white'
+}
+window.addEventListener('scroll', bgChange)/*
