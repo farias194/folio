@@ -80,11 +80,15 @@ body{
     justify-content: space-between;
     align-content: first baseline;
     align-items: center;
+
     min-width: 100%;
     transition: background-image 200ms ease-in-out;
 }
 
-
+#footer > *{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 #bio{
     margin: 0px;
     font-weight: lighter;
@@ -181,7 +185,8 @@ margin: 0px;
 }
 #footer{
     font-family: "ivyepic-variable", sans-serif;
-    font-size: 2rem;
+    font-size: 1rem;
+
     display: flex;
     flex-direction: row;
 }
@@ -232,7 +237,10 @@ align-items: center;
   #name{
     font-size: 1rem;
   }
-
+#footer{
+    display: flex;
+    flex-direction: column;
+}
     #mainWrapper{
         display: flex;
         flex-direction: column;
