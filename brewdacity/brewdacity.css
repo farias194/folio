@@ -1,8 +1,9 @@
 #webvid{
-    width: 50%;
+    max-width: 100%;
 }
 #MasterProjectWrapper{
     background-color: #ecf583;
     font-family: "ivyepic-variable", sans-serif;
 
 }
+
