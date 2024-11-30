@@ -16,7 +16,6 @@ body{
     align-content: center;
 }
 .carouselTextContainer{
-    display: none;
 }
 .workList{
     align-content: center;
@@ -81,7 +80,15 @@ h1{
     color: rgb(25, 8, 8);
     text-decoration: none;
 }
-
+.carouselTextContainer{
+    position: relative;
+    height: 50px;
+    overflow: hidden;
+}
+.carouselText{
+    position: absolute;
+    transition: opacity 1s ease-in-out;
+}
 
 /** Projects */
 
@@ -90,9 +97,11 @@ h1{
 
     list-style: none;
     text-align: center;
-    padding: 10rem;
+    padding: 5rem;
     margin-bottom: 5rem;
     color: rgb(9, 9, 9);
+    border-bottom: 2px solid grey;
+    
 }
 .project p {
     
@@ -149,11 +158,12 @@ font-size: 3rem;
 .projectTitle{
     text-decoration: none;
     font-size: 2rem;
+    font-family: 'ivymode';
     margin-bottom: 2rem;
 
 }
 .projectTitle a{
-    color: black;
+    color: rgb(50, 49, 49);
     font-size: 3rem;
 }
 
@@ -183,13 +193,13 @@ font-size: 3rem;
     z-index: 3;
    font-size: 10rem;
 }
-.overlay:hover{
+/*.overlay:hover{
 opacity: 1;
 transition: 1s;
 width: 80%;
 transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
 height: 80%;
-}
+}*/
 .overlay h1{
     font-family: "ivyepic-variable", sans-serif;
     padding: 5rem;
@@ -208,11 +218,11 @@ font-size: 1rem;
 
   
 }
-#glaxiclean:hover{
+/*#glaxiclean:hover{
     background: radial-gradient(circle, rgba(169,246,245,1) 51%, rgba(55,252,212,1) 84%, rgba(0,255,224,0) 100%); 
   
 
-}
+}*/
 
 
 #glaxiclean:hover:after{
@@ -239,10 +249,10 @@ font-size: 1rem;
     grid-row: 2;
     background: none;
 }
-#marcusbuildinggroup:hover{
+/* #marcusbuildinggroup:hover{
    background:  linear-gradient(90deg, rgba(236,157,90,0.4191877434567577) 7%, rgba(236,157,90,1) 60%, rgba(236,210,164,1) 84%, rgba(252,228,55,0) 93%);  
      transition: 2s;
-}
+}*/
 #marcusbuildinggroup img{
     width: 50%;
 }

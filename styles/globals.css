@@ -133,6 +133,7 @@ text-decoration: none;   }
 #MasterProjectWrapper{
     margin: 0px;
     width: 100%;
+    transition: background-gradient 1s ease-in;
     padding: 0px
 }
 
@@ -173,6 +174,8 @@ padding: 2rem;
     flex-direction: column;
 }
 #projectExplainer h1{
+    font-family: 'ivymode';
+    color: rgb(34, 34, 34);
     font-size: clamp(10px + 2rem, 6vw, 10rem);
 margin: 0px;
 }

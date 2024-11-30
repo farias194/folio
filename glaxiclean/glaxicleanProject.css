@@ -49,7 +49,7 @@ body{
 }
 #projectBody{
     font-family: "ivyepic-variable", sans-serif;
-    background-color: aqua;
+    background-color: #b1f9f9;
     display: flex;
     flex-direction: column;
     justify-content: center;
