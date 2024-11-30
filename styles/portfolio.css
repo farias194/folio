@@ -80,6 +80,11 @@ h1{
     color: rgb(25, 8, 8);
     text-decoration: none;
 }
+.intro{
+    font-size: 3rem;
+    padding: 20px;
+    max-width: 60ch;
+}
 .carouselTextContainer{
     position: relative;
     height: 50px;

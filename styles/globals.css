@@ -229,9 +229,17 @@ margin-bottom: 1rem;}
 #nav ul{
     padding: 0px;
 }
+#footerContact{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
 
-
-
+#footerContact h1{
+    display: flex;
+    flex-direction: row;
+    color: black;
+}
 @media (width < 900px) {
     #nav{
         display: flex;
