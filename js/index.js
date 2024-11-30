@@ -26,7 +26,7 @@ console.log(overlayName)
 
 const project = document.querySelectorAll('.project');
 
-const changeBackGroundOnScroll =() =>{
+/*const changeBackGroundOnScroll =() =>{
     project.forEach((project) => {
         const projectBorder = project.getBoundingClientRect();
         if (projectBorder.top <= window.innerHeight / 2 && projectBorder.bottom >= window.innerHeight / 2 ){
@@ -37,6 +37,8 @@ const changeBackGroundOnScroll =() =>{
 
 window.addEventListener('scroll', changeBackGroundOnScroll);
 console.log(document.getElementById('MasterProjectWrapper'));
+
+*/
 
 
 const texts = document.querySelectorAll('.carouselText');
