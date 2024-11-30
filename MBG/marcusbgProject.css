@@ -43,7 +43,7 @@ section {
 
 #mbglogo{
     align-self: center;
-    max-width: 20rem;
+    width: max(45%,30rem);
     padding: 2rem;
 }
 #projectExplainer{
@@ -54,3 +54,11 @@ section {
 #MasterProjectWrapper{
 }
 
+
+@media (width < 800px) {
+    .lists{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

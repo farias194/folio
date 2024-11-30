@@ -86,8 +86,9 @@ body{
 }
 
 #footer > *{
-    padding-left: 1rem;
-    padding-right: 1rem;
+    font-size: 1.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 #bio{
     margin: 0px;
@@ -179,6 +180,7 @@ padding: 2rem;
     font-size: clamp(10px + 2rem, 6vw, 10rem);
 margin: 0px;
 }
+
 #projectBody p{
   
         font-family: "ivyepic-variable", sans-serif;
