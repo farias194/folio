@@ -1,5 +1,6 @@
 #webvid{
     max-width: 100%;
+   width:  clamp(400px, 50%, 45vw )
 }
 #MasterProjectWrapper{
     background-color: #ecf583;
