@@ -81,7 +81,7 @@ h1{
     text-decoration: none;
 }
 .intro{
-    font-size: 3rem;
+    font-size: 1.5rem;
     padding: 20px;
     max-width: 60ch;
 }
@@ -165,13 +165,22 @@ font-size: 3rem;
     font-size: 2rem;
     font-family: 'ivymode';
     margin-bottom: 2rem;
+    border-bottom: 0.4px;
+   
 
 }
+
 .projectTitle a{
     color: rgb(50, 49, 49);
     font-size: 3rem;
+   
 }
-
+.projectTitle a:hover{
+        color: rgb(53, 55, 55);
+        transition: 0.1s ease-in;
+        border-bottom: 2px solid black;
+    
+}
 .projectWrapper{
     display: flex;
     flex-direction: row;
