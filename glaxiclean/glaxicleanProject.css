@@ -11,6 +11,9 @@
 #nav {
     font-family: "ivyepic-variable", sans-serif;
     max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
     
 }
 
@@ -27,7 +30,6 @@ body{
 }
 #projectExplainer{
     font-size: clamp(20px + 1rem, 1vw, 2rem);
-    width: min-content;
 }
 #projectHolder{
     justify-content: space-between;
