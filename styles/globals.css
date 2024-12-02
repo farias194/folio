@@ -35,6 +35,7 @@ body{
    }
    #nav{  
     display: flex;
+    font-size: 1rem;
     background-image: linear-gradient(
 
         to top,
@@ -62,9 +63,7 @@ body{
         rgb(235, 235, 235) 100%
     );
 }
-#navTwo{
-    font-size: 2rem;
-}
+
 
 #footer{
     display: flex;
@@ -109,8 +108,7 @@ padding-bottom:1rem;
 color: black;}
 
 #nav>*{
-    padding-left: 2rem;
-    padding-right: 2rem;
+   margin: 10px;
 }
 
    #nav a{
