@@ -10,7 +10,7 @@ body{
    
 }
 .abt{
-    padding-left: 20px;
+    padding-left: clamp(1rem, 5vw,5rem + 20px);
 }
 .workListContianer{
     align-content: center;
@@ -82,7 +82,7 @@ h1{
 }
 .intro{
     font-size: 1.5rem;
-    padding: 20px;
+    padding-left: clamp(1rem, 5vw,5rem + 20px);
     max-width: 60ch;
 }
 .carouselTextContainer{
