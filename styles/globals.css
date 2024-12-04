@@ -97,11 +97,10 @@ body{
 }
    #name{
     font-family: "ivyepic-variable", sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bolder;
 margin: 10px;  
 color: rgb(41, 41, 41);
-padding-bottom:1rem;
   width: auto;}
 
    #nav #about{font-size: arem;
@@ -118,6 +117,7 @@ text-decoration: none;   }
 
 
 #navTwo ul li{
+    font-size: 1.5rem;
     list-style: none;
 }
 #mainWrapper{
@@ -127,7 +127,7 @@ text-decoration: none;   }
     align-items: baseline;
 }
 #projectExplainer{
-    max-width: 45%;
+    max-width: max(45%,400px);
 }
 #MasterProjectWrapper{
     margin: 0px;
@@ -137,15 +137,15 @@ text-decoration: none;   }
 }
 
 #projectHolder{
-    justify-content: space-between;
+    justify-content: space-around;
     display: flex;
     max-width: 100%;
     flex-wrap: wrap;
-    padding: clamp(1rem, 2vw,3rem);
+    padding: clamp(10px, 2vw,3rem);
     flex-direction: row;
 }
 #projectLink{
-    padding: 0 1rem 0 1rem ;
+    padding: 0 2rem 0 2rem ;
     border: none;
     font-size: 1rem;
     align-self: center;
@@ -161,9 +161,11 @@ text-decoration: none;   }
 #projectLink a{
     text-decoration: none;
     color: black;
+    padding: 2rem;
 }
 #projectBody{
 display: flex;
+justify-content: center ;
 padding: 2rem;
     flex-direction: row;
     flex-wrap: wrap;
@@ -200,7 +202,9 @@ margin: 0px;
 .lists > *{
     padding: 0px;
 }
-
+.lists h2{
+    font-family: 'ivymode';
+}
 #logoanimation {
     align-self: center;
 width: 100%;
@@ -218,8 +222,12 @@ mix-blend-mode: lighten;
     justify-content: space-around;
     flex-direction: row;
 }
+.lists ul{
+  padding: 0px;
+}
+
 .lists ul li{
-    font-size: 1rem;
+    font-size: 1.5rem;
     list-style-type: none;
 text-decoration: underline;
 margin-bottom: 1rem;}
@@ -238,16 +246,37 @@ margin-bottom: 1rem;}
     flex-direction: row;
     color: black;
 }
-@media (width < 900px) {
+@media (width < 500px) {
     #nav{
 
 position: sticky;     
 align-items: center;
+
    height: auto;
      
 
     }
+    .lists{
+        display: flex;
+        flex-direction: column;
+    }
+    .lists ul{
+        border-bottom: .5px solid black;
+
+        display: flex;
+        align-content: flex-start;
+        flex-direction: row;
+        padding: 0px;
+        justify-content: inherit;
+        flex-wrap: wrap;
+        gap: 1rem;
+
+    }
+
   #name{
+    font-size: 1rem;
+  }
+  #bio{
     font-size: 1rem;
   }
 #footer{
@@ -266,7 +295,9 @@ align-items: center;
   .lists{
     justify-content: flex-start;
   }
-    
+    #nav >*{
+        font-size: 1rem;
+    }
 
 
     
@@ -283,5 +314,5 @@ align-items: center;
         justify-content: center;
         
        }
-    
+  
 }

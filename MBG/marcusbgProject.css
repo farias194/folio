@@ -43,8 +43,7 @@ section {
 
 #mbglogo{
     align-self: center;
-    width: max(45%,30rem);
-    padding: 2rem;
+    width: max(45%, 400px);
 }
 #projectExplainer{
     font-size: clamp(20px + 1rem, 1vw, 2rem);
