@@ -33,3 +33,10 @@
 #projectHolder {
     font-family: 2rem;
 }
+
+@media (width < 500px) {
+    #sunnysidevid{
+        max-width: 100%;
+    }
+    
+}
