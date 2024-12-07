@@ -62,6 +62,9 @@ body{
     line-height: clamp(20px, calc(1vw + 1rem) + 10px, 3rem + 10px);
     font-size: clamp(20px, calc(1vw + 1rem), 3rem);
 }
+#gclogo{
+    max-width: 50%;
+}
 
 #imageHolder img{
     max-width: 100%;
@@ -123,5 +126,12 @@ margin-bottom: 1rem;}
         object-fit: contain;
         
        }
+    
+}
+
+@media (width < 500px) {
+    #gclogo{
+        max-width: 100%;
+    }
     
 }
