@@ -33,7 +33,12 @@
 #projectHolder {
     font-family: 2rem;
 }
-
+#projectLink{
+    align-self: center;
+}
+a{
+    align-self: center;
+}
 @media (width < 500px) {
     #sunnysidevid{
         max-width: 100%;
