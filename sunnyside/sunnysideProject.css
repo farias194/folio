@@ -36,12 +36,17 @@
 #projectLink{
     align-self: center;
 }
-a{
+#link{
     align-self: center;
+    padding: 2rem;
 }
 @media (width < 500px) {
     #sunnysidevid{
         max-width: 100%;
     }
     
+}
+#titleImage{
+margin-bottom: 20px;
+  padding: 1rem;
 }
