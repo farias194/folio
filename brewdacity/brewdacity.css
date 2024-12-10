@@ -7,4 +7,12 @@
     font-family: "ivyepic-variable", sans-serif;
 
 }
+#projectText{
+    display: flex;
+  flex-direction: column;
 
+}
+
+#projectLinkButton{
+    align-self: center;
+}
